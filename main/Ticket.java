@@ -6,6 +6,7 @@ public class Ticket {
     private double maxWeight;
     private String airline;
     private Person person;
+    private String gate;
 
     public String getStartLocation() {
         return startLocation;
@@ -21,6 +22,9 @@ public class Ticket {
     }
     public String getAirline() {
         return airline;
+    }
+    public String getGate() {
+        return gate;
     }
 
     public void setStartLocation(String startLocation) {
@@ -48,6 +52,9 @@ public class Ticket {
     }
     public void setPerson(Person person) {
         this.person = person;
+    }
+    public void setGate(String gate) {
+        this.gate = gate;
     }
 
 
