@@ -1,24 +1,6 @@
-public class Passenger {
-    private String firstName;
-    private String lastName;
+public class Passenger extends Person {
     private Ticket ticket;
     
-    
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getFirstName() {
-        return this.firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getLastName() {
-        return this.lastName;
-    }
     public void setTicket(Ticket ticket) {
         //set ticket information, etc.
     }
@@ -29,5 +11,13 @@ public class Passenger {
     
     public void orderTicket(Ticket ticket) {
         //buys ticket
+    }
+
+    public void checkIn() {
+        //check in for TSA
+    }
+
+    public void sit(Seat seat) {
+        //eg. sitting on a seat to wait for the next plane
     }
 }

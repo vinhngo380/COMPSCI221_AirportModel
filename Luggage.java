@@ -1,6 +1,5 @@
 public class Luggage {
     private double weight;
-    private boolean isOverweight;
 
     public void setWeight(double newWeight) {
         this.weight = newWeight;
