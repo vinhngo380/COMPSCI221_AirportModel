@@ -1,3 +1,4 @@
+package main;
 public class Person {
     protected String firstName;
     protected String lastName;
@@ -24,5 +25,9 @@ public class Person {
     
     public void stand() {
         
+    }
+
+    public void converse() {
+
     }
 }

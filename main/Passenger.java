@@ -1,5 +1,7 @@
+package main;
 public class Passenger extends Person {
     private Ticket ticket;
+    private String airline;
     
     public void setTicket(Ticket ticket) {
         //set ticket information, etc.
