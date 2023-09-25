@@ -5,6 +5,7 @@ public class Ticket {
     private double price;
     private double maxWeight;
     private String airline;
+    private Person person;
 
     public String getStartLocation() {
         return startLocation;
@@ -37,4 +38,17 @@ public class Ticket {
     public void setAirline(String airline) {
         this.airline = airline;
     }
+    public boolean isOverWeight(double weight) {
+        /*
+         * (what it would most likely do) check the max weight of the ticket and weight given 
+         * if it exceeds increase the price of the ticket (true)
+         * else return false
+         */
+        return false; //temporary code so it doesnt error
+    }
+    public void setPerson(Person person) {
+        this.person = person;
+    }
+
+
 }
