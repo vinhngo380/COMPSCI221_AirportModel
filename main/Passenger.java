@@ -2,6 +2,10 @@ package main;
 public class Passenger extends Person {
     private Ticket ticket;
     
+    @Override public void setFirstName(String firstName) {
+        this.firstName = "Passenger" + firstName;
+    }
+
     public void setTicket(Ticket ticket) {
         //set ticket information, etc.
     }

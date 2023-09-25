@@ -57,5 +57,4 @@ public class Ticket {
         this.gate = gate;
     }
 
-
 }

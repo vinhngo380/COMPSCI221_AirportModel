@@ -5,5 +5,6 @@ public class main {
         Kisok k = new Kisok();
         Ticket t = k.generateTicket("London", "New York City", 123, 1234, "United Airlines");
         p.setTicket(t);
+        t.setPerson(p);
     }
 }
