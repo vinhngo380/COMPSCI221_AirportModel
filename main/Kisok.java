@@ -12,4 +12,8 @@ public class Kisok {
         //physically print ticket to Passengers
     }
 
+    public void questionnaire() {
+        //ask the passenger where they are going
+    }
+
 }

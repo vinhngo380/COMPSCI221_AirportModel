@@ -5,7 +5,7 @@ public class Ticket {
     private double price;
     private double maxWeight;
     private String airline;
-    private Person person;
+    private Person owner;
     private String gate;
 
     public String getStartLocation() {
@@ -26,6 +26,8 @@ public class Ticket {
     public String getGate() {
         return gate;
     }
+
+    
 
     public void setStartLocation(String startLocation) {
         this.startLocation = startLocation;
@@ -50,11 +52,14 @@ public class Ticket {
          */
         return false; //temporary code so it doesnt error
     }
-    public void setPerson(Person person) {
-        this.person = person;
+    public void setOwner(Person person) {
+        this.owner = person;
     }
     public void setGate(String gate) {
         this.gate = gate;
+    }
+    public Person getOwner() {
+        return owner;
     }
 
 }
