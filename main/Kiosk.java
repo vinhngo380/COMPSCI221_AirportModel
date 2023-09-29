@@ -1,5 +1,5 @@
 package main;
-public class Kisok {
+public class Kiosk {
     
     public Ticket generateTicket(String startLocation, String endLocation, double maxWeight, double price, String airline) {
         //create a new ticket but doesnt mean it physically prints
