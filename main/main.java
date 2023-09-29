@@ -1,5 +1,5 @@
 package main;
-public class main {
+public class Main {
     public static void main(String[] args) {
         Passenger p = new Passenger();
         Kisok k = new Kisok();

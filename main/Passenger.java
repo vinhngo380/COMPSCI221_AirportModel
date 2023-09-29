@@ -3,13 +3,14 @@ public class Passenger extends Person {
     private Ticket ticket;
     private boolean hasPassport;
     
-    @Override public void setFirstName(String firstName) {
-        this.firstName = "Passenger" + firstName;
-    }
 
+    @Override public void converse(Person person) {
+        //talk to other passengers, ask for help from employees 
+    }
     public void setTicket(Ticket ticket) {
         //set ticket information, etc.
     }
+
     public Ticket getTicket() {
         //return ticket info, etc.
         return this.ticket;

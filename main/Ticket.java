@@ -54,8 +54,8 @@ public class Ticket {
         return false; //temporary code so it doesnt error
     }
 
-    public void setOwner(Person person) {
-        this.owner = person;
+    public void setOwner(Person passenger) {
+        this.owner = passenger;
     }
     public void setGate(String gate) {
         this.gate = gate;

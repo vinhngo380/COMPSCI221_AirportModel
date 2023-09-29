@@ -1,5 +1,5 @@
 package main;
-public class Person {
+abstract class Person {
     protected String firstName;
     protected String lastName;
     
@@ -23,8 +23,5 @@ public class Person {
     public void stand() {
         
     }
-    public void converse() {
-
-    }
-
+    public abstract void converse(Person person);
 }

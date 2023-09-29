@@ -7,7 +7,7 @@ public class Employee extends Person {
     }
 
     @Override
-    public void converse() {
-        //help the passenger with questions
+    public void converse(Person person) {
+        //help the passenger with questions, or any other kind of conversing with people
     }
 }
