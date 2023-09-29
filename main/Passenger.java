@@ -15,7 +15,6 @@ public class Passenger extends Person {
         return this.ticket;
     }
     
-    
     public void orderTicket(Ticket ticket, Kisok kisosk) {
         //buys ticket at a kiosk
     }
@@ -23,7 +22,6 @@ public class Passenger extends Person {
     public void checkIn() {
         //check in for TSA
     }
-
 
     public boolean getHasPassport() {
         return hasPassport;

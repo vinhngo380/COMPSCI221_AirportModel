@@ -10,12 +10,23 @@ public class Luggage {
 
     public double getWeight() {
         return this.weight;
-    }    
-
-    public void scan() {
-        //this scans the Luggage object to see if it has passed
-        hasScanned = true;
-        passedSecurity = true;
     }
 
+    public boolean getHasScanned() {
+        return hasScanned;
+    }
+
+    public void setHasScanned(boolean hasScanned) {
+        this.hasScanned = hasScanned;
+    }
+
+    public boolean hasPassedSecurity() {
+        return passedSecurity;
+    }
+
+    public void setPassedSecurity(boolean passedSecurity) {
+        this.passedSecurity = passedSecurity;
+    }
+    
+    
 }

@@ -32,26 +32,28 @@ public class Ticket {
     public void setStartLocation(String startLocation) {
         this.startLocation = startLocation;
     }
+
     public void setEndLocation(String endLocation) {
         this.endLocation = endLocation;
     }
+
     public void setPrice(double price) {
         this.price = price;
     }
+
     public void setMaxWeight(double maxWeight) {
         this.maxWeight = maxWeight;
     }
+
     public void setAirline(String airline) {
         this.airline = airline;
     }
+
     public boolean isOverWeight(double weight) {
-        /*
-         * (what it would most likely do) check the max weight of the ticket and weight given 
-         * if it exceeds increase the price of the ticket (true)
-         * else return false
-         */
+        //check if the luggage is overweight or not -- charge if it is
         return false; //temporary code so it doesnt error
     }
+
     public void setOwner(Person person) {
         this.owner = person;
     }
